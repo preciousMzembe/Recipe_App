@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.app_title{
+    font-size: 20px;
+    font-family: "nunito";
+}
+
+.nav_options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.active{
+    color: orange;
+}
+
+.logout{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

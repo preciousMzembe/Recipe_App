@@ -1,0 +1,61 @@
+.welcome_user{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.welcome_user span{
+    color: orange;
+    text-transform: capitalize;
+}
+
+.welcome_phrase{
+    text-align: center;
+    font-family: "pacifico";
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.search_form{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.search_form>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_form input{
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+/* popular */
+.popular_title{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.popular_recipes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.popular_recipes .recipe{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 14px;
+}
